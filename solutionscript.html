@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conditional solution</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+
+
+
+<script>
+
+    // Get age and convert it to a Number (Prompt always returns a string)
+    var age = Number(prompt("What is your age?"));
+
+    //If age is negative
+    if (age < 0) {
+        console.log("You are not born yet!");
+    }
+
+    // If age is 21
+    if (age === 21) {
+        console.log("Happy 21st Birthday!");
+    }
+
+    // if age is odd(not evenly divided by two)
+    if (age % 2 !== 0) {
+        console.log("Your age is odd!");
+    }
+
+    // If age is a perfect square
+    if (age % Math.sqrt(age) === 0) {
+        console.log("Your age is a perfect square!");
+    }
+
+</script>
